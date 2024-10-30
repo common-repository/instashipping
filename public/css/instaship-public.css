@@ -1,0 +1,26 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+div#insta_shipping {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 50px;
+}
+
+li.wc_payment_method.insta_shipping {
+    list-style: none !important;
+}
+
+.recalculate {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    color:#0000;
+    background:linear-gradient(90deg,#000 calc(50% - 0.5ch),red 0 calc(50% + 0.5ch),#000 0) right/calc(200% + 1ch) 100%;
+    -webkit-background-clip:text;
+    background-clip:text;
+    animation:c8 2s infinite steps(11);
+}
+@keyframes c8 {to{background-position: left}}
+
+.recalculate {display: none;}
